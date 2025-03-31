@@ -1,0 +1,189 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .banner {
+    text-align: right;
+}
+
+header .banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+header .banner p {
+    font-size: 1.2em;
+}
+
+/* Caixa de Texto */
+.caixa-texto {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.caixa-texto h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.caixa-texto p, .caixa-texto li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Seção sobre a empresa */
+.sobre {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Seção de Objetivos */
+.objetivos {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e7f7e7;
+}
+
+/* Lista de objetivos */
+.objetivos ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Caixa de informações */
+.caixa {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.topicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.topico {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.topico h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.topico p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Rodapé */
+footer {
+    background-color:#4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.equipe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.membro {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.membro h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.membro p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.membro .info {
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .equipe {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .equipe {
+        grid-template-columns: 1fr;
+    }
+}
